@@ -1,9 +1,0 @@
-apiVersion: apisix.apache.org/v2
-kind: ApisixConsumer
-metadata:
-  name: jack2
-spec:
-  authParameter:
-    keyAuth:
-      value:
-        key: jack2-key
